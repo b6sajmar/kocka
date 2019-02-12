@@ -22,7 +22,7 @@
             
         }
         $sorsolt=sorsolas();
-        var_dump($tomb);
+        var_dump($sorsolt);
         ?>
     </body>
 </html>
