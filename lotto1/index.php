@@ -19,7 +19,10 @@
                 }
             }
             return $tomb;
+            
         }
+        $sorsolt=sorsolas();
+        var_dump($tomb);
         ?>
     </body>
 </html>
