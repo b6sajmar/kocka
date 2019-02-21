@@ -6,22 +6,21 @@
     </head>
     <body>
         <form action=index.php method="post">
-            <label for="dobas">Hány különbőző szám legyen? </label>
-            <input type="text" name="dobas" id="dobas">
+            <div>
+            <label for="dobasszam">Hány oldalú kocka legyen? </label>
+            <input type="text" name="dobasszam" id="dobasszam">
             <br>
+            <input type="submit" value="Elküld">
+            </div>
         </form>
         <?php
-
-        function dobas() {
-
-            $dobasszam = $_GET['dobas'];
-            $dobottszam = rand(1, $dobasszam);
-            if (!isset($tomb[$dobottszam])) {
-                $tomb[$dobottszam] = 1;
-            }
-            return $tomb;
-            // var_dump($tomb);
-        }
+			// függvények kezdete
+			include("fuggvenyek.php");
+			$sorsolt=dobas();
+			//var_dump($sorsolt);
+			// függvények vége
+			echo $sorsolt;
+			
         ?>
     </body>
 </html>
