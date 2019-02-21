@@ -22,22 +22,22 @@
 			echo "A dobott szám:".$sorsolt;
 			switch ($sorsolt) {
     case 1:
-        echo '<img src="egy.jpg" />';
+        echo '<img src="egy.png" />';
         break;
     case 2:
-        echo '<img src="ketto.jpg" />';
+        echo '<img src="ketto.png" />';
         break;
     case 3:
-       echo '<img src="harom.jpg" />';
+       echo '<img src="harom.png" />';
         break;
     case 4:
-        echo '<img src="negy.jpg" />';
+        echo '<img src="negy.png" />';
         break;
     case 5:
-        echo '<img src="ot.jpg" />';
+        echo '<img src="ot.png" />';
         break;
     case 6:
-        echo '<img src="hat.jpg" />';
+        echo '<img src="hat.png" />';
         break;
 }
         ?>
