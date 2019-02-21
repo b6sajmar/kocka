@@ -19,8 +19,27 @@
 			$sorsolt=dobas();
 			//var_dump($sorsolt);
 			// függvények vége
-			echo $sorsolt;
-			
+			echo "A dobott szám:".$sorsolt;
+			switch ($sorsolt) {
+    case 1:
+        echo '<img src="egy.jpg" />';
+        break;
+    case 2:
+        echo '<img src="ketto.jpg" />';
+        break;
+    case 3:
+       echo '<img src="harom.jpg" />';
+        break;
+    case 4:
+        echo '<img src="negy.jpg" />';
+        break;
+    case 5:
+        echo '<img src="ot.jpg" />';
+        break;
+    case 6:
+        echo '<img src="hat.jpg" />';
+        break;
+}
         ?>
     </body>
 </html>
